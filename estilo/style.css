@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* estilo do formulario*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #68b2f8;
+    --cor2: #506ee5;
+    
+
+    ---font1: "Pixelify Sans", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 50px 0px 50px 0px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--cor2);
+    padding: 6px 0px 6px 0px;
+}
+
+nav {
+    align-items: center;
+    font-size: large;
+}
+
+nav a {
+    margin: 2px 10px 2px 10px;
+    text-decoration: none;
+    color: black;
+
+}
+nav a#geek::after {
+    content: "\00A0\2B50";
+}
+nav a#ciencia::after {
+    content: "\00A0\1F52C";
+}
+
+nav a#internacional::after {
+    content: "\00A0\1F310";
+}
+
+nav a#local::after {
+    content: "\00A0\1F306";
+}
+
+nav a:hover {
+    background-color: lightcoral;
+    padding: 4px 20px 4px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+nav a#login {
+    background-color: var(--cor1);
+    padding: 4px 20px 4px 20px ;
+    border-radius: 10px;
+}
+nav a#login:hover {
+    background-color: rgba(240, 128, 128, 0.75);
+}
+
+
