@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
         * {
             padding: 0;
             margin: 0;
@@ -14,11 +17,18 @@
             text-align: center;
             background-color: black;
             color: white;
-            padding: 20px;
+            padding: 30px;
+        }
+
+
+
+        header h1 {
+            font-size: 3em;
+            font-family: "Pixelify Sans", sans-serif;
         }
 
         body {
-            background: url(imagens/Metal\ Poster\ Forest\ At\ Starry\ Sky\ Moon.jpg);
+            background: url(imagens/fundo005.jpg);
             background-position: center;
             background-size: cover;
             background-attachment: fixed;
@@ -37,10 +47,9 @@
         }
 
         form {
-            border: 1px solid black;
             border-radius: 20px;
             padding: 25px;
-            background-color: rgba(255, 255, 255, 0.278);
+            background-color: rgba(255, 255, 255, 0.577);
         }
 
         form div {
@@ -80,8 +89,14 @@
     <header>
         <h1>MUNDO NERD</h1>
     </header>
+    <nav>
+        <a href="#">Geek</a>
+        <a href="#">ciencia</a>
+        <a href="#">inetrnacional</a>
+        <a href="#">local</a>
+    </nav>
     <section>
-        <form action="cadastro.php" method="get" autocomplete="on">
+        <form action="cadastro.php" method="post" autocomplete="on">
 
             <div>
                 <label for="inome">Nome</label>
@@ -93,7 +108,7 @@
             </div> 
             <div>
                 <label for="itele">Telefone</label>
-                <input type="number" name="telefone" id="itele" placeholder="Degite seu Telefone" required class="login">
+                <input type="tel" name="tele" id="itele" autocomplete="tel" placeholder="Degite Seu Telefone" class="login" required>
             </div>
             <div>
                 <label for="iemail">Email</label>
