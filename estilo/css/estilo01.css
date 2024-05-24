@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+
+main {
+    
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+}
+main div.conteiner {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+section.primeiro > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+section.segundo {
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer > img.icone-do-login {
+    width: 30px;
+}
