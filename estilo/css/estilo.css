@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #24292f;
+}
+
+main {
+    display: flex;
+    margin: 90px auto;
+    height: 720px;
+    width: 1484px;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px 0px 0px 10px ;
+}
+
+.segundo {
+    width: 742px;
+    padding: 20px;
+}
+
+div.botao {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+img.logo {
+    width: 50px;
+    border-radius: 50%;
+}
