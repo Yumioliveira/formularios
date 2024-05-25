@@ -2,38 +2,28 @@
 
 * {
     margin: 0;
+    padding: 0%;
+}
+
+div.conteiner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-main {
-    
-    display: flex;
+div > section.primeiro {
     border: 1px solid black;
-    width: 90%;
-    margin: auto;
+    width: 50%;
 }
-main div.conteiner {
-    display: flex;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-
-section.primeiro > img {
+div > section.primeiro > img {
     width: 100%;
-    height: 100%;
-    border-radius: 10px 0px 0px 10px;
-}
-section.segundo {
-    padding: 10px;
-    
 }
 
-
-
+div > section.segundo {
+    border: 1px solid black;
+    width: 50%;
+}
 
 
 
