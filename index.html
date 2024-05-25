@@ -3,67 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="./estilo/css/estilo.css">
+    <title>Formulario01</title>
+    <link rel="stylesheet" href="estilo/css/estilo01.css">
 </head>
 <body>
-    <main>
+    <div class="conteiner">
         <section class="primeiro">
             <img src="estilo/imagens/fundo.jpg" alt="">
         </section>
-        <section class="sengundo">
-            <div class="form">
+
+        <section class="segundo">
+            <div class="conteiner-do-login">
                 <form action="#">
-                    <div class="form-header">
-                        <div class="title">
-                            <h1>inscrever-se</h1>
+                    <div class="nome">
+                        <div class="primeiro-nome">
+                            <label for="inome">Nome</label>
+                            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="segundo-nome">
+                            <label for="isobrenome">Sobrenome</label>
+                            <input type="text" name="sobrenome" id="isobrenome" autocomplete="family-name" placeholder="Digite seu sobrenome" required >
                         </div>
                     </div>
-
-                    <div class="inputs">
-                        <div class="nome">
-                            <div class="pnome">
-                                <label for="inome">nome</label>
-                                <input type="text" name="nome" id="inome" autocomplete="on" placeholder="Degite seu nome" required>
-                            </div>
-
-                            <div class="snome">
-                                <label for="isobrenome">Sobrenome</label>
-                                <input type="text" name="Sobrenome" id="isobrenome" autocomplete="on" placeholder="Degite seu Sobrenome" required>
-                            </div>
-                        </div>
-
-                        <div class="input-box">
+                    <div class="box-login">
+                        <div class="conteudo-de-login">
                             <label for="iemail">Email</label>
-                            <input type="email" name="email" id="iemail" placeholder="Degite seu email" autocomplete="email" required>
+                            <input type="email" name="email" id="iemail" placeholder="Digite seu Email" required>
                         </div>
-                        <div class="input-bix">
-                            <label for="isenha">senha</label>
-                            <input type="password" name="senha" id="isenha" placeholder="Degite sua senha" autocomplete="new-password" required>
+                        <div class="conteudo-de-login">
+                            <label for="isenha">Senha</label>
+                            <input type="password" name="senha" id="isenha" placeholder="Didite sua senha" autocomplete="current-password" required >
                         </div>
-                        <div class="input-box">
-                            <label for="iconfirmacao de senha">Confirme sua senha</label>
-                            <input type="password" name="confirmacao de senha" id="iconfirmacao de senha" placeholder="Confirme sua senha" required>
+                        <div class="conteudo-de-login">
+                            <label for="iconfirmacao-da-senha">Confirme sua senha</label>
+                            <input type="password" name="confirmacao-da-senha" id="iconfirmacao-da-senha" placeholder="confirme sua senha" required>
                         </div>
-                        <div class="box">
-                            <input type="checkbox" name="termos" id="itermos"required>
-                            <label for="itermos">Li e concordo com os termos de servicos e nossa politica de privacidade</label>
+                        <div class="conteudo-de-login">
+                            <input type="checkbox" name="itermo-de-concordancia" id="itermo-de-concordancia">
+                            <label for="itermo-de-concordancia">Li é cocordo com os termos de privacidade</label>
                         </div>
                     </div>
-                    <div class="botao">
-                        <input type="submit" value="Confirme">
+                    <div class="sub">
+                        <input type="submit" value="Confirma">
                     </div>
-                    <footer>
-                        <div class="login">
-                            <p>ou</p>
-                            <img src="estilo/imagens/icone do google.png" alt="" class="logo">
-                            <img src="estilo/imagens/icone do face.png" alt="" class="logo">
-                            <p>já possui ema conta/ Faca <a href="">login</a></p>
+                    <div class="footer">
+                        <p>ou</p>
+                        <p>Faca o <a href="#">login</a> com </p>
+                        <div class="imagens-de-login">
+                            <img src="estilo/imagens/quinta.png" alt="">
+                            <img src="estilo/imagens/icone do face.png" alt="">
                         </div>
-                    </footer>
+                    </div>
                 </form>
             </div>
         </section>
-    </main>
+    </div>
 </body>
 </html>
