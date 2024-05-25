@@ -5,34 +5,126 @@
     padding: 0%;
 }
 
-div.conteiner1 {
+/*
+body {
+    display:flax
+    alin:item: center
+    juste:center
+    heiget: 100vh
+}
+
+*/
+
+body {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(../imagens/fundo\ do\ bady.png);
+}
+
+div.conteiner {
+
+    display: flex;
+    width: 85%;
+    height: 438px;
+}
+
+div.conteiner > section.primeiro {
+
+    width: 50%;
+    height: 438px;
+}
+section.primeiro > img {
+    width: 100%;
+    height: 438px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+section.segundo {
+    display: flex;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+div.conteiner > section.segundo {
+    background-color: #08295e;
+}
+
+
+div.conteiner > section.segundo {
+    width: 50%;
+    padding: 20px;
+}
+
+div.conteiner-do-login {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.nome {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.box-login {
+
+    padding: 10px;
+}
+
+div.sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+div.sub > input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+div.sub > input {
+    border: 1px solid black;
+    background-color: #71dbd2;
+}
+
+
+
+div.conteudo-de-login {
+    padding: 5px;
+}
+
+
+div.footer {
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-div > section.primeiro {
-    border: 1px solid black;
-    width: 50%;
-}
-div > section.primeiro > img {
-    width: 100%;
+div.footer > div.imagens-de-login > img {
+    width: 30px;
 }
 
-div > section.segundo {
-    border: 1px solid black;
-    width: 50%;
+div.nome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
 
 
-
-
-
-
-
-footer > img.icone-do-login {
+div.footer > img {
     width: 30px;
 }
