@@ -13,7 +13,13 @@ body {
     heiget: 100vh
 }
 
-*/
+/*coda linha em branco em css e uma borda de um pix para saber onde estao as coisas*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     display: flex;
@@ -23,108 +29,114 @@ body {
     background: url(../imagens/fundo\ do\ bady.png);
 }
 
-div.conteiner {
 
+div.conteiner {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
     display: flex;
-    width: 85%;
-    height: 438px;
 }
 
-div.conteiner > section.primeiro {
 
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+
+section.primeiro {
+    
     width: 50%;
-    height: 438px;
+    height: 100%;
 }
 section.primeiro > img {
     width: 100%;
-    height: 438px;
-    border-radius: 10px 0px 0px 10px;
-    
+    height: 100%;
+    border-radius: 10px 0px 0px 10px ;
 }
 
+
+/* no de baixo tem uma borda para ver onde as coisas tao*/
 section.segundo {
+
+
+    width: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #0045ae;
     border-radius: 0px 10px 10px 0px;
 }
 
-div.conteiner > section.segundo {
-    background-color: #08295e;
-}
 
-
-div.conteiner > section.segundo {
-    width: 50%;
-    padding: 20px;
-}
-
-div.conteiner-do-login {
-    background-color: white;
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+section.segundo > div.conteiner-de-login {
+    margin: 5px;
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-div.nome {
-
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-div.box-login {
-
-    padding: 10px;
-}
-
-div.sub {
+    width: 80%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-}
-div.sub > input {
-    padding: 10px;
-    font-size: 1em;
-    border-radius: 10px;
-    border: 1px solid white;
 }
 
 
-div.sub > input {
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+form {
+    padding: 10px;
     border: 1px solid black;
-    background-color: #71dbd2;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
 }
 
 
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+form > div.nome-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
-div.conteudo-de-login {
-    padding: 5px;
 }
 
-
-div.footer {
-
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-div.footer > div.imagens-de-login > img {
-    width: 30px;
+
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+form > div.login {
+
+    padding-left: 10px;
 }
 
-div.nome {
+div.conteudo-de-login {
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+
+
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+div.footer {
+    
+}
+
+div.footer {
+    text-align: center;
+}
+
+
+/* no de baixo tem uma borda para ver onde as coisas tao*/
+div.imagem {
+
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+
 }
-
-
-
-
-div.footer > img {
+div.footer > div.imagem > img {
     width: 30px;
 }
